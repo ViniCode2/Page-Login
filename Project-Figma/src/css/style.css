@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'top.css';
+@import 'form.css';
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*ORGANIÇÃO DE PALETA DE CORES*/
+:root{
+    --color-white-form: #FFFFFF;
+    --color-background: #333333;
+    --color-inputs: #D9D9D9;
+    --color-border-buttons: #646363;
+    --color-register: #0C8CE9;
+}
+
+/*DIV PAI*/
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*DIV BACKGROUND*/
+.container-login{
+    width: 100%;
+    height: 100%;
+    background: var(--color-background);
+    overflow-x: hidden;
+}
+
+/*DIV TOPO*/
+.top{
+    width: 100%;
+    height: 223px;
+    display: flex;
+    flex-direction: row;
+}
+.txt-login{
+    width: 50%;
+    display: flex;
+}
+
+/*CARD BRANCO*/
+.white-login{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 47px;
+    border-top-right-radius: 47px;
+    background-color: var(--color-white-form);
+}
+
+/*DIV PAI DO FORM*/
+.form-login{
+    width: 100%;
+    height: 231px;
+    display: flex;
+    justify-content: center;
+}
+
+/*SUBTITULO FORM*/
+.subtitle{
+    width: 200px;
+    padding: 43px 0px 20px 12%;
+}
+.welcome{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+    color: var(--color-background);
+}
+
+/*FORM*/
+form{
+    width: 85%;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*RODAPÉ*/
+.baseboard{
+    margin-top: 15px;
+    width: 100%;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+}
+.signup{
+    font-size: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+}
+.link{
+    color: var(--color-register);
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,33 @@
+/*ESTILIZAÇÃO DO TOPO DA PÁGINA LOGIN*/
+
+.login{
+    margin-left: 30px;
+    margin-top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 68px;
+
+    color: var(--color-white-form);
+}
+
+.row{
+    position: absolute;
+    width: 44px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-left: 31px;
+    margin-top: 33%;
+    background-color: var(--color-white-form);
+}
+
+.img-login{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
